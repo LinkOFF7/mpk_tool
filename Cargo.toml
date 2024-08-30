@@ -7,3 +7,4 @@ edition = "2021"
 
 [dependencies]
 binary-stream = "9.1.0"
+log = "0.4.22"
