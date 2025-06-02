@@ -26,7 +26,10 @@ fn main() {
 }
 
 fn print_usage(arg: &str) {
-    println!("Emio – The Smiling Man: Famicom Detective Club MPK Extractor\n");
+    println!("MAGES MPK Archive Tool\n");
+    println!("Supported games:\n");
+    println!("• Emio – The Smiling Man: Famicom Detective Club");
+    println!("• Iwakura Aria\n");
     println!("Usage: {} <mode> <mpk/directory>\n", &arg);
     println!("MODES:\n  extract\tExtract all files from archive\n  build\t\tCreate new archive from folder");
 }
